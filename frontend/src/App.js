@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import bgImage from "./images/mental-health.webp";
+import bgImage from "./images/mental-health.png";
 
 function App() {
   const [name, setName] = useState("");
