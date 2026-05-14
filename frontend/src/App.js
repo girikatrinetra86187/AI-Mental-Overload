@@ -1,12 +1,16 @@
 import './App.css';
-import MentalForm from "./components/MentalForm";
+import mentalImg from "./images/mental-health.webp";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <h1>AI Mental Overload Prediction</h1>
 
-      <MentalForm />
+      <img
+        src={mentalImg}
+        alt="Mental Health"
+        width="500"
+      />
     </div>
   );
 }
